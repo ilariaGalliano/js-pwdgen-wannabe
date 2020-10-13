@@ -1,6 +1,6 @@
 /**
 * (insicurissimo) password generator
-*/
+**/
 
 // chiedi all'utente il nome
 var userName = prompt('Qual è il tuo nome?');
@@ -12,4 +12,4 @@ var lastName = prompt('Qual è il tuo cognome?')
 var fav = prompt('Qual è il tuo colore preferito?')
 
 // Random password generator
-document.getElementById('password-generator').innerHTMl = userName + lastName + fav + "19";
+document.getElementById('password-generator').innerHTML = userName + lastName + fav + "19";
